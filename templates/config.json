@@ -1,0 +1,8 @@
+{
+  "pretension": "pretension.txt",
+  "claim": "claim.txt",
+  "complaint_prosecutor": "complaint_prosecutor.txt",
+  "complaint_rospotrebnadzor": "complaint_rospotrebnadzor.txt",
+  "labor_complaint": "labor_complaint.txt",
+  "agreement": "agreement.txt"
+}

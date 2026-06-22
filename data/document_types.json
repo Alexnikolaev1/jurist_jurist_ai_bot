@@ -1,0 +1,44 @@
+[
+  {
+    "id": "pretension",
+    "title": "📨 Досудебная претензия",
+    "description": "Претензия продавцу/исполнителю услуг (некачественный товар, услуга, нарушение сроков)",
+    "template_file": "pretension.txt",
+    "required_fields": ["full_name", "address", "phone", "recipient_name", "recipient_address", "date", "description", "price", "demand"]
+  },
+  {
+    "id": "claim",
+    "title": "⚖️ Исковое заявление в суд",
+    "description": "Иск о защите прав потребителя / взыскании долга / возмещении ущерба",
+    "template_file": "claim.txt",
+    "required_fields": ["full_name", "address", "phone", "court_name", "defendant_name", "defendant_address", "date", "description", "price", "demand"]
+  },
+  {
+    "id": "complaint_prosecutor",
+    "title": "🏛 Жалоба в прокуратуру",
+    "description": "Жалоба на бездействие или нарушение закона со стороны организации/должностного лица",
+    "template_file": "complaint_prosecutor.txt",
+    "required_fields": ["full_name", "address", "phone", "prosecutor_office", "date", "description", "demand"]
+  },
+  {
+    "id": "complaint_rospotrebnadzor",
+    "title": "🛒 Жалоба в Роспотребнадзор",
+    "description": "Жалоба на нарушение прав потребителя продавцом/исполнителем",
+    "template_file": "complaint_rospotrebnadzor.txt",
+    "required_fields": ["full_name", "address", "phone", "date", "seller_name", "seller_address", "description", "demand"]
+  },
+  {
+    "id": "labor_complaint",
+    "title": "👔 Жалоба в трудовую инспекцию",
+    "description": "Жалоба на нарушение трудовых прав работодателем",
+    "template_file": "labor_complaint.txt",
+    "required_fields": ["full_name", "address", "phone", "employer_name", "employer_address", "date", "description", "demand"]
+  },
+  {
+    "id": "agreement",
+    "title": "🤝 Соглашение о расторжении договора",
+    "description": "Двустороннее соглашение о расторжении договора по обоюдному согласию",
+    "template_file": "agreement.txt",
+    "required_fields": ["full_name", "address", "phone", "counterparty_name", "counterparty_address", "date", "contract_subject", "description"]
+  }
+]
